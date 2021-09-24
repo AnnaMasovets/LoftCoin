@@ -22,11 +22,17 @@
         android:name="com.aashagunova.loftcoin.ui.converter.ConverterFragment"
         android:label="@string/converter"
         tools:layout="@layout/fragment_converter" />
-    <fragment
+    <dialog
         android:id="@+id/currency_dialog"
         android:name="com.aashagunova.loftcoin.ui.currency.CurrencyDialog"
         tools:layout="@layout/dialog_currency"
         android:label="CurrencyDialog" />
+
+    <dialog
+        android:id="@+id/coins_sheet"
+        android:name="com.aashagunova.loftcoin.ui.converter.CoinsSheet"
+        android:label="@string/choose_currency"
+        tools:layout="@layout/dialog_currency" />
 
 
 </navigation>

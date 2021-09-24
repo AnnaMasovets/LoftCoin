@@ -15,16 +15,13 @@ import com.aashagunova.loftcoin.BuildConfig;
 import com.aashagunova.loftcoin.R;
 import com.aashagunova.loftcoin.data.Coin;
 import com.aashagunova.loftcoin.databinding.LiRateBinding;
-import com.aashagunova.loftcoin.util.Formatter;
 import com.aashagunova.loftcoin.util.ImageLoader;
-import com.aashagunova.loftcoin.util.OutlineCircle;
+import com.aashagunova.loftcoin.widget.OutlineCircle;
 import com.aashagunova.loftcoin.util.PercentFormatter;
 import com.aashagunova.loftcoin.util.PriceFormatter;
-import com.squareup.picasso.Picasso;
 
 
 import java.util.List;
-import java.util.Locale;
 import java.util.Objects;
 
 import javax.inject.Inject;

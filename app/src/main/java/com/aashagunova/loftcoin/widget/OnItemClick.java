@@ -1,4 +1,4 @@
-package com.aashagunova.loftcoin.util;
+package com.aashagunova.loftcoin.widget;
 
 import android.content.Context;
 import android.os.SystemClock;

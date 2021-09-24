@@ -35,7 +35,7 @@ public class WelcomeActivity extends AppCompatActivity {
         binding.recycler.setHasFixedSize(true);
         helper = new PagerSnapHelper();
         helper.attachToRecyclerView(binding.recycler);
-        binding.buttonWelcome.setOnClickListener((v) -> {
+        binding.btnStart.setOnClickListener((v) -> {
             PreferenceManager.getDefaultSharedPreferences(this).edit()
                     .putBoolean(KEY_SHOW_WELCOME, false)
                     .apply();
@@ -50,5 +50,4 @@ public class WelcomeActivity extends AppCompatActivity {
         binding.recycler.setAdapter(null);
         super.onDestroy();
     }
-
 }

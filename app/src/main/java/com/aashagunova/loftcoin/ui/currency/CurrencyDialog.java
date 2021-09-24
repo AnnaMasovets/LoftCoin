@@ -12,11 +12,8 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.aashagunova.loftcoin.BaseComponent;
 import com.aashagunova.loftcoin.R;
-import com.aashagunova.loftcoin.data.Currency;
-import com.aashagunova.loftcoin.data.CurrencyRepo;
-import com.aashagunova.loftcoin.data.CurrencyRepoImpl;
 import com.aashagunova.loftcoin.databinding.DialogCurrencyBinding;
-import com.aashagunova.loftcoin.util.OnItemClick;
+import com.aashagunova.loftcoin.widget.OnItemClick;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
 import javax.inject.Inject;
