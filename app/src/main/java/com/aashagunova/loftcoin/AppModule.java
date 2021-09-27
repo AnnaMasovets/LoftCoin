@@ -21,7 +21,7 @@ import okhttp3.OkHttpClient;
 import okhttp3.logging.HttpLoggingInterceptor;
 
 @Module
-public abstract class AppModule {
+abstract class AppModule {
 
     @Singleton
     @Provides
