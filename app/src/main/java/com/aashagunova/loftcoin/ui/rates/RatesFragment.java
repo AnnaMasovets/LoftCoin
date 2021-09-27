@@ -18,7 +18,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import com.aashagunova.loftcoin.BaseComponent;
 import com.aashagunova.loftcoin.R;
 import com.aashagunova.loftcoin.data.CurrencyRepo;
-import com.aashagunova.loftcoin.data.CurrencyRepoImpl;
+
 import com.aashagunova.loftcoin.databinding.FragmentRatesBinding;
 import com.aashagunova.loftcoin.util.PriceFormatter;
 import com.google.android.material.snackbar.Snackbar;

@@ -14,7 +14,6 @@ import io.reactivex.Single;
 
 public interface CoinsRepo {
 
-
     @NonNull
     Observable<List<Coin>> listings(@NonNull Query query);
 
@@ -37,11 +36,11 @@ public interface CoinsRepo {
                     .sortBy(SortBy.RANK);
         }
 
-        abstract String currency();
+        public abstract String currency();
 
-        abstract boolean forceUpdate();
+        public abstract boolean forceUpdate();
 
-        abstract SortBy sortBy();
+        public abstract SortBy sortBy();
 
         @AutoValue.Builder
         public abstract static class Builder {
